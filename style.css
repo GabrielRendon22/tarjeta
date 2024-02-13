@@ -1,0 +1,53 @@
+.rsvp-button {
+  background-color: #fbfbfb;
+  color: #041e42;
+  font-size: 20px;
+  padding: 8px 16px;
+  border: black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.rsvp-button:hover {
+  background-color: #000000;
+  color: antiquewhite;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+#particles-js {
+  color: aliceblue;
+  font-family: Arial, sans-serif;
+  position: relative;
+  /*Cuando querras seguir trabajando borrale esto*/
+  height: 2200px;
+  background-color: #041E42;
+  display: grid;
+  place-items: center;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+}
+.bordes-degradados {
+  width: 125px; 
+  height: 2.5px;        
+  background-image: linear-gradient(45deg, #BEBEBE, #BEBEBE);  
+}
+
