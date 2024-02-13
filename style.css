@@ -37,7 +37,8 @@
   font-family: Arial, sans-serif;
   position: relative;
   /*Cuando querras seguir trabajando borrale esto*/
-  height: 2200px;
+  height: 2300px;
+  width: 100%;
   background-color: #041E42;
   display: grid;
   place-items: center;
@@ -50,4 +51,49 @@
   height: 2.5px;        
   background-image: linear-gradient(45deg, #BEBEBE, #BEBEBE);  
 }
+/* Estilos generales */
+body {
+  background-color: #041E42;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+#principal {
+  color: aliceblue;
+  margin-left: 10%;
+  max-width: 80%;
+}
+
+.invitation {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Beau Rivage';
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Media queries para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+  #principal {
+    margin-left: 5%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+/* Media queries para pantallas medianas */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  #principal {
+    margin-left: 20%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+}
